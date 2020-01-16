@@ -1,0 +1,20 @@
+﻿{
+	"helper": {
+		"methods": [
+			"c_formula",
+			"c_formula_raw",
+			"c_formula_this"
+		]
+	},
+	"test": {
+		"methods": [
+			"allTests",
+			"test_c_formula",
+			"test_c_formula_raw",
+			"test_c_formula_this",
+			"test_collection_flatten",
+			"test_collection_ify"
+		]
+	},
+	"trash": {}
+}

@@ -18,6 +18,6 @@ ASSERT:C1129($result.equal($expected);"increment failed "+JSON Stringify:C1217($
 
 C_LONGINT:C283($result_int;$expected_int)
 $col:=New collection:C1472(1;2;3;4)
-$result_int:=$col.reduce("c_formula_this";1;Formula:C1597(This:C1470.value*This:C1470.accumulator)
+$result_int:=$col.reduce("c_formula_this";1;Formula:C1597(This:C1470.value*This:C1470.accumulator))
 $expected_int:=24
 ASSERT:C1129($result_int=$expected_int;"increment failed "+JSON Stringify:C1217($result))

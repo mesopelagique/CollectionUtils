@@ -18,3 +18,7 @@ C_VARIANT:C1683(c_formula_raw ;${1})
 C_VARIANT:C1683(c_formula_raw ;$1)
 C_VARIANT:C1683(c_formula_raw ;$2)
 C_VARIANT:C1683(c_formula ;${1})
+
+  //col_parameters
+C_VARIANT:C1683(col_parameters ;$0)
+C_VARIANT:C1683(col_parameters ;${1})

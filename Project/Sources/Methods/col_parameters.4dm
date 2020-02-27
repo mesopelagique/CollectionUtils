@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
 
 C_VARIANT:C1683(${1})
 C_COLLECTION:C1488($col)

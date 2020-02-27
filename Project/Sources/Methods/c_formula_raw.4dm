@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
   // Helper method to use with collection map
   // This.value is the current value, $1 the first arg, you must use This.result to affect change
   // ex: $col.map("c_formula_raw";Formula(This.result:=This.value+$1);2)

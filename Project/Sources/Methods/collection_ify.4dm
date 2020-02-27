@@ -1,4 +1,4 @@
-//%attributes = {"preemptive":"capable"}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // If $1 is collection return it, otherwise return a new collection with the  element $1
 C_VARIANT:C1683($1)
 C_COLLECTION:C1488($0)

@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true}
 C_COLLECTION:C1488($0;$result)
 C_COLLECTION:C1488($1)
 C_LONGINT:C283($2;$depth)

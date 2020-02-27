@@ -6,6 +6,29 @@
 [![release][release-shield]][release-url]
 [![license][license-shield]][license-url]
 
+## Usage
+
+## collection_flatten
+
+Flattenize a collection.
+
+## collection_ify
+
+Transform any input into collection. If already a collection return it.
+
+## collection formula
+
+Use `Formula` with collection functions like `map`, `reduce`, etc..
+
+- `c_formula`
+- `c_formula_raw`
+- `c_formula_this`
+
+```4d
+$col:=New collection:C1472(1;2;3;4)
+$result:=$col.map("c_formula";Formula:C1597($1+1))  // ++
+```
+
 ## Installing
 
 On Unix system open a terminal in your database root folder.

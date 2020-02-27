@@ -12,13 +12,12 @@ On Unix system open a terminal in your database root folder.
 
 ### Using latest release
 
-👷‍♂️ comming soon
+Download the latest release and put  it into the `Components/CollectionUtils.4dbase/` folder
 
-Download the latest release and put into Components/CollectionUtils.4dbase/ folder
+On unix system you could do it using this command
 
-On unix system
 ```bash
-mkdir -p Components/CollectionUtils.4dbase/ & curl -L https://github.com/mesopelagique/run4d-workflow/releases/latest/download/CollectionUtils.4DZ --output Components/CollectionUtils.4dbase/CollectionUtils.4dz
+mkdir -p Components/CollectionUtils.4dbase/ && curl -L https://github.com/mesopelagique/CollectionUtils/releases/latest/download/CollectionUtils.4DZ --output Components/CollectionUtils.4dbase/CollectionUtils.4dz
 ```
 
 ### Using git submodule

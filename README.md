@@ -6,6 +6,8 @@
 [![release][release-shield]][release-url]
 [![license][license-shield]][license-url]
 
+Utility methods for collections.
+
 ## Usage
 
 ## collection_flatten

@@ -37,7 +37,7 @@ On Unix system open a terminal in your database root folder.
 
 ### Using latest release
 
-Download the latest release and put  it into the `Components/CollectionUtils.4dbase/` folder
+Download the latest release and put  it into the `Components/` folder
 
 On unix system you could do it using this command
 

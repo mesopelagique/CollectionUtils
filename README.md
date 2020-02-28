@@ -42,7 +42,7 @@ Download the latest release and put  it into the `Components/CollectionUtils.4db
 On unix system you could do it using this command
 
 ```bash
-mkdir -p Components/CollectionUtils.4dbase/ && curl -L https://github.com/mesopelagique/CollectionUtils/releases/latest/download/CollectionUtils.4DZ --output Components/CollectionUtils.4dbase/CollectionUtils.4dz
+mkdir -p Components && curl -L https://github.com/mesopelagique/CollectionUtils/releases/latest/download/CollectionUtils.4DZ --output Components/CollectionUtils.4dz
 ```
 
 ### Using git submodule

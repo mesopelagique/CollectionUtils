@@ -10,21 +10,16 @@ C_VARIANT:C1683(${1})
 
 C_LONGINT:C283($count)
 $count:=Count parameters:C259
+
 Case of 
+	: ($count>2)
+		$args:=New collection:C1472()
+		For ($i;3;$count;1)
+			$args.push(${$i})
+		End for 
+		$2.apply($1;$args)
 	: ($count=2)
 		$2.call($1)
-	: ($count=3)
-		$2.call($1;$3)
-	: ($count=4)
-		$2.call($1;$3;$4)
-	: ($count=5)
-		$2.call($1;$3;$4;$5)
-	: ($count=6)
-		$2.call($1;$3;$4;$5;$6)
-	: ($count=7)
-		$2.call($1;$3;$4;$5;$6;$7)
-	: ($count=8)
-		$2.call($1;$3;$4;$5;$6;$7;$8)
-	: ($count=9)
-		$2.call($1;$3;$4;$5;$6;$7;$8;$9)
+	Else 
+		  // wrong use ie. assert dev
 End case 

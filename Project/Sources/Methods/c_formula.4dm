@@ -18,20 +18,14 @@ Else
 End if 
 
 Case of 
+	: ($count>2)
+		$args:=New collection:C1472($1.value)
+		For ($i;3;$count;1)
+			$args.push(${$i})
+		End for 
+		$1[$key]:=$2.apply($1;$args)
 	: ($count=2)
 		$1[$key]:=$2.call($1;$1.value)
-	: ($count=3)
-		$1[$key]:=$2.call($1;$1.value;$3)
-	: ($count=4)
-		$1[$key]:=$2.call($1;$1.value;$3;$4)
-	: ($count=5)
-		$1[$key]:=$2.call($1;$1.value;$3;$4;$5)
-	: ($count=6)
-		$1[$key]:=$2.call($1;$1.value;$3;$4;$5;$6)
-	: ($count=7)
-		$1[$key]:=$2.call($1;$1.value;$3;$4;$5;$6;$7)
-	: ($count=8)
-		$1[$key]:=$2.call($1;$1.value;$3;$4;$5;$6;$7;$8)
-	: ($count=9)
-		$1[$key]:=$2.call($1;$1.value;$3;$4;$5;$6;$7;$8;$9)
+	Else 
+		  // wrong use ie. assert dev
 End case 

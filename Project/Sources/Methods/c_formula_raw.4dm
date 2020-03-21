@@ -13,7 +13,9 @@ $count:=Count parameters:C259
 
 Case of 
 	: ($count>2)
+		C_COLLECTION:C1488($args)
 		$args:=New collection:C1472()
+		C_LONGINT:C283($i)
 		For ($i;3;$count;1)
 			$args.push(${$i})
 		End for 

@@ -22,3 +22,22 @@ C_VARIANT:C1683(c_formula ;${1})
   //col_parameters
 C_VARIANT:C1683(col_parameters ;$0)
 C_VARIANT:C1683(col_parameters ;${1})
+
+  //nvl
+C_VARIANT:C1683(nvl ;$0)
+C_VARIANT:C1683(nvl ;$1)
+C_VARIANT:C1683(nvl ;$2)
+
+  //zipObject
+C_OBJECT:C1216(zipObject ;$0)
+C_COLLECTION:C1488(zipObject ;$1)
+C_COLLECTION:C1488(zipObject ;$2)
+
+  //indexify
+C_COLLECTION:C1488(indexify ;$0)
+C_COLLECTION:C1488(indexify ;$1)
+
+  //groupBy
+C_OBJECT:C1216(groupBy ;$0)
+C_COLLECTION:C1488(groupBy ;$1)
+C_OBJECT:C1216(groupBy ;$2)

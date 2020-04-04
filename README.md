@@ -31,7 +31,7 @@ $col:=New collection:C1472(1;2;3;4)
 $result:=$col.map("c_formula";Formula:C1597($1+1))  // ++
 ```
 
-### Some reducer exemple with formula
+### Some reducers exemple using Formula
 
 |Code|Description|Examples|
 |---|---|---|

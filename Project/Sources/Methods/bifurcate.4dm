@@ -1,6 +1,6 @@
 //%attributes = {}
   // https://www.30secondsofcode.org/js/s/bifurcate
-C_COLLECTION:C1488($0;$1;$2;$arr;$filter;$filter)
+C_COLLECTION:C1488($0;$1;$2;$arr;$filter;$result)
 $arr:=$1
 $filter:=$2
 

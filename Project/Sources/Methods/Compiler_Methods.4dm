@@ -41,3 +41,22 @@ C_COLLECTION:C1488(indexify ;$1)
 C_OBJECT:C1216(groupBy ;$0)
 C_COLLECTION:C1488(groupBy ;$1)
 C_OBJECT:C1216(groupBy ;$2)
+
+  //bifurcate
+C_COLLECTION:C1488(bifurcate ;$0)
+C_COLLECTION:C1488(bifurcate ;$1)
+C_COLLECTION:C1488(bifurcate ;$2)
+
+  //bifurcateBy
+C_COLLECTION:C1488(bifurcateBy ;$0)
+C_COLLECTION:C1488(bifurcateBy ;$1)
+C_OBJECT:C1216(bifurcateBy ;$2)
+
+  //mostFrequent
+C_VARIANT:C1683(mostFrequent ;$0)
+C_COLLECTION:C1488(mostFrequent ;$1)
+
+  //countBy
+C_OBJECT:C1216(countBy ;$0)
+C_COLLECTION:C1488(countBy ;$1)
+C_OBJECT:C1216(countBy ;$2)

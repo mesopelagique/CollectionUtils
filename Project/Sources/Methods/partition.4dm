@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // https://www.30secondsofcode.org/js/s/partition/
 C_COLLECTION:C1488($0;$1;$arr;$result)
 C_OBJECT:C1216($2;$formula)

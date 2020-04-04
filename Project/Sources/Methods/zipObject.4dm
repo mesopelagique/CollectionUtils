@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // https://www.30secondsofcode.org/js/s/zip-object/
 C_OBJECT:C1216($0;$obj)
 C_COLLECTION:C1488($1;$2;$values)

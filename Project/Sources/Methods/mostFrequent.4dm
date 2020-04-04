@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // https://www.30secondsofcode.org/js/s/most-frequent/
 C_COLLECTION:C1488($1)
 C_VARIANT:C1683($0;$result)

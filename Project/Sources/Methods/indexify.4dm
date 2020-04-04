@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
   // because of missing index for collection in map, reduce etc... create indexed collection of tuples
 C_COLLECTION:C1488($0;$1)
 

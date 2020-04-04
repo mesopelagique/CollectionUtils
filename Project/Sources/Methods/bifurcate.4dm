@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // https://www.30secondsofcode.org/js/s/bifurcate
 C_COLLECTION:C1488($0;$1;$2;$arr;$filter;$result)
 $arr:=$1

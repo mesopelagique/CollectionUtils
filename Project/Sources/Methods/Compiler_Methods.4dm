@@ -60,3 +60,8 @@ C_COLLECTION:C1488(mostFrequent ;$1)
 C_OBJECT:C1216(countBy ;$0)
 C_COLLECTION:C1488(countBy ;$1)
 C_OBJECT:C1216(countBy ;$2)
+
+  //partition
+C_COLLECTION:C1488(partition ;$0)
+C_COLLECTION:C1488(partition ;$1)
+C_OBJECT:C1216(partition ;$2)

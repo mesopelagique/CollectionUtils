@@ -3,10 +3,26 @@
 		"methods": [
 			"c_formula",
 			"c_formula_raw",
-			"c_formula_this"
+			"c_formula_this",
+			"indexify",
+			"nvl"
+		]
+	},
+	"reducer": {
+		"methods": [
+			"bifurcate",
+			"bifurcateBy",
+			"countBy",
+			"groupBy",
+			"mostFrequent",
+			"partition",
+			"zipObject"
 		]
 	},
 	"test": {
+		"groups": [
+			"test_reducer"
+		],
 		"methods": [
 			"allTests",
 			"test_c_formula",
@@ -15,6 +31,17 @@
 			"test_col_parameters",
 			"test_collection_flatten",
 			"test_collection_ify"
+		]
+	},
+	"test_reducer": {
+		"methods": [
+			"test_bifurcate",
+			"test_bifurcateBy",
+			"test_countBy",
+			"test_groupBy",
+			"test_mostFrequent",
+			"test_partition",
+			"test_zipObject"
 		]
 	},
 	"trash": {}

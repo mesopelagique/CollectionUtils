@@ -1,7 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="2">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
 	<com.4d>
 		<compiler>
 			<options compilation_path="3"/>
 		</compiler>
+		<web>
+			<standalone_server>
+				<configuration https_port_number="8744" port_number="8080"/>
+			</standalone_server>
+		</web>
+		<server>
+			<network>
+				<options use_legacy_network_layer="false"/>
+			</network>
+		</server>
+		<database>
+			<misc standard_xpath="true" use_ast_interpreter="false"/>
+		</database>
 	</com.4d>
 </preferences>

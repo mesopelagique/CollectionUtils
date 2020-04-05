@@ -7,13 +7,13 @@ C_BOOLEAN:C305($isRunning)
 $isRunning:=$webServer.isRunning
 
 If (Not:C34($isRunning))
-	$webServer.start(New object:C1471("HTTPPortID";"8765";"defaultHomepage";"index.html"))
+	$webServer.start(New object:C1471("HTTPPortID";"8765";"defaultHomepage";"tu.html"))
 End if 
 
   // get page
 C_OBJECT:C1216($config)
 $config:=New object:C1471
-$config.url:="http://localhost:"+String:C10($webServer.HTTPPort)+"/"+$webServer.defaultHomepage
+$config.url:="http://localhost:"+String:C10($webServer.HTTPPort)+"/tu.html"
 $config.areaName:="index"
 $config.onEvent:=Formula:C1597(This:C1470.result:=Choose:C955(FORM Event:C1606.code=On End URL Loading:K2:47;WA Get page content:C1038(*;This:C1470.areaName);This:C1470.result))
 C_TEXT:C284($result)

@@ -49,12 +49,15 @@
 	},
 	"testSystem": {
 		"methods": [
+			"actionListTests",
 			"actionTest",
 			"actionTests",
-			"allJSONTests",
 			"allTests",
 			"errorTests",
 			"generateWebResult"
+		],
+		"classes": [
+			"TestUnit"
 		]
 	},
 	"trash": {}

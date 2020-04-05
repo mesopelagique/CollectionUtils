@@ -85,10 +85,11 @@ td {
             }
         }
         $.ajax({
-            url: '4daction/actionListTests',
+            url: '4daction/actionTests',
             dataType: 'json',
             success: function(data) {
                 for (let [test, value] of Object.entries(data)) {
+                    if (test == "success") { continue; }
                     var row = '<tr><td onclick="tdclick(this)" align="center" style="width:5%">▶️</td><td>' + test+ '</td><td align="center" style="width:10%">';
                     if (typeof value.success !== 'undefined') {
                         row += value.success ? '✅': '🚫';

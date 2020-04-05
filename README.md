@@ -22,9 +22,11 @@ Transform any input into collection. If already a collection return it.
 
 Use `Formula` with collection functions like `map`, `reduce`, etc..
 
-- `c_formula`
-- `c_formula_raw`
-- `c_formula_this`
+|Method Name|Formula Parameters|Result|Examples|
+|---|---|---|---|
+|`c_formula`|$1, $2, $3, ...| $0 ie. direct formula result|[test_c_formula](Project/Sources/Methods/test_c_formula.4dm)|
+|`c_formula_this`|This.value, $1, $2, ...| $0 ie. direct formula result|[test_c_formula_this](Project/Sources/Methods/test_c_formula_this.4dm)|
+|`c_formula_raw`|This.value, $1, $2, ...| This.result or This.accumulator must be modifyed|[test_c_formula_raw](Project/Sources/Methods/test_c_formula_raw.4dm)|
 
 ```4d
 $col:=New collection:C1472(1;2;3;4)

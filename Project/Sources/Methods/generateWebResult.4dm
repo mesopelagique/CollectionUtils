@@ -38,7 +38,7 @@ DOM CLOSE XML:C722($dom)
 $result:=Replace string:C233($result;"<head>";"<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />")
 
   // write to file
-Folder:C1567(fk web root folder:K87:15).file("results.html").setText($result;UTF8 text without length:K22:17;Document with CRLF:K24:20)
+Folder:C1567(fk web root folder:K87:15).file("results.html").setText($result;"UTF-8")
 
   // stop server if stopped before launching this method
 If (Not:C34($isRunning))

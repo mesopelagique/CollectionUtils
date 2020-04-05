@@ -86,6 +86,12 @@ open Components/CollectionUtils/Project/CollectionUtils.4DProject
 
 Compile it to `Components/` folder. A `CollectionUtils.4dbase` will be created with inside a `CollectionUtils.4dz`
 
+## Unit tests
+
+Execute `allTests`, which execute all method prefixed by `test_`
+
+[Result page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/mesopelagique/CollectionUtils/webtu/WebFolder/results.html)
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [code-shield]: https://img.shields.io/static/v1?label=language&message=4d&color=blue

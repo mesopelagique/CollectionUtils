@@ -29,6 +29,7 @@
 			"test_c_formula_raw",
 			"test_c_formula_this",
 			"test_col_parameters",
+			"test_collection_entries",
 			"test_collection_flatten",
 			"test_collection_ify"
 		]

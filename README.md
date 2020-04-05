@@ -18,6 +18,11 @@ Flattenize a collection.
 
 Transform any input into collection. If already a collection return it.
 
+## collection_entries
+
+Transform any collection into a collection of entries ie. object with key and value like `OB Entries`.
+Key is index, and value is the value at this index.
+
 ## collection formula
 
 Use `Formula` with collection functions like `map`, `reduce`, etc..

@@ -29,6 +29,7 @@ td {
         <tr>
             <th>Name</th>
             <th>Success</th>
+            <th>Duration(ms)</th>
             <th>Message</th>
         </tr>
       </table>
@@ -38,8 +39,10 @@ td {
             dataType: 'json',
             success: function(data) {
                 for (let [test, value] of Object.entries(data)) {
-                    var row = '<tr><td>' + test+ '</td><td>';
+                    var row = '<tr><td>' + test+ '</td><td align="center">';
                     row += value.success ? '✅': '🚫';
+                    row += '</td><td align="center">';   
+                    row += value.duration;
                     row += '</td><td>';
                     if(value.formula) {
                       row +=  value.formula;

@@ -49,6 +49,7 @@
 	},
 	"testSystem": {
 		"methods": [
+			"actionTest",
 			"actionTests",
 			"allJSONTests",
 			"allTests",

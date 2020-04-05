@@ -32,12 +32,41 @@ td {
         </tr>
       </table>
       <script type="text/javascript">
+        function tdclick(el){
+            var test = el.textContent;
+            console.log(test);
+
+            $.ajax({
+            url: '4daction/actionTest',
+            type: 'POST',
+            data: JSON.stringify({ "test": test }),
+            dataType: 'json',
+            success: function(data) {
+                console.log(data);
+                var value = data[test];
+
+                var success=$(el).next();
+                success.text(value.success ? '✅': '🚫');
+                var duration=success.next();
+                duration.text(value.duration);
+                var message=duration.next();
+                if(value.formula) {
+                    message.text(value.formula);
+                } else {
+                    message.text("");
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert('Error: ' + textStatus + ' - ' + errorThrown);
+            }
+        });
+        };
         $.ajax({
             url: '4daction/actionTests',
             dataType: 'json',
             success: function(data) {
                 for (let [test, value] of Object.entries(data)) {
-                    var row = '<tr><td>' + test+ '</td><td align="center">';
+                    var row = '<tr><td onclick="tdclick(this)">' + test+ '</td><td align="center">';
                     row += value.success ? '✅': '🚫';
                     row += '</td><td align="center">';   
                     row += value.duration;

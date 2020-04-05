@@ -65,3 +65,15 @@ C_OBJECT:C1216(countBy ;$2)
 C_COLLECTION:C1488(partition ;$0)
 C_COLLECTION:C1488(partition ;$1)
 C_OBJECT:C1216(partition ;$2)
+
+  //collection_entries
+C_COLLECTION:C1488(collection_entries ;$0)
+C_COLLECTION:C1488(collection_entries ;$1)
+
+  //indexBy
+C_OBJECT:C1216(indexBy ;$0)
+C_COLLECTION:C1488(indexBy ;$1)
+C_OBJECT:C1216(indexBy ;$2)
+
+  //allJSONTests
+C_VARIANT:C1683(allJSONTests ;$0)

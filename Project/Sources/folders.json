@@ -22,10 +22,10 @@
 	},
 	"test": {
 		"groups": [
-			"test_reducer"
+			"test_reducer",
+			"testSystem"
 		],
 		"methods": [
-			"allTests",
 			"test_c_formula",
 			"test_c_formula_raw",
 			"test_c_formula_this",
@@ -45,6 +45,14 @@
 			"test_mostFrequent",
 			"test_partition",
 			"test_zipObject"
+		]
+	},
+	"testSystem": {
+		"methods": [
+			"actionTests",
+			"allJSONTests",
+			"allTests",
+			"errorTests"
 		]
 	},
 	"trash": {}

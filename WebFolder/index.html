@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Unit test result</title>
+	    <style type="text/css">
+table {
+    width: 50%;
+}
+th {
+    background: #f1f1f1;
+    font-weight: bold;
+    padding: 6px;
+}
+td {
+    background: #f9f9f9;
+    padding: 6px;
+}
+        </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+
+	<body bgcolor="#ffffff">
+		<div align="center">
+      <h1>Unit Tests</h1>
+      <table id="myTable">
+        <tr>
+            <th>Name</th>
+            <th>Success</th>
+            <th>Message</th>
+        </tr>
+      </table>
+      <script type="text/javascript">
+        $.ajax({
+            url: '4daction/actionTests',
+            dataType: 'json',
+            success: function(data) {
+                for (let [test, value] of Object.entries(data)) {
+                    var row = '<tr><td>' + test+ '</td><td>';
+                    row += value.success ? '✅': '🚫';
+                    row += '</td><td>';
+                    if(value.formula) {
+                      row +=  value.formula;
+                    } 
+                     row += '</td></tr>';
+                  
+                    $('#myTable').append($(row));
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert('Error: ' + textStatus + ' - ' + errorThrown);
+            }
+        });
+        </script>
+		</div>
+	</body>
+
+</html>

@@ -5,6 +5,7 @@ C_OBJECT:C1216($2;$formula)
 $arr:=$1
 $formula:=$2
 $obj:=New object:C1471()
+
 indexify ($arr.map("c_formula";$2))\
-.reduce("c_formula_raw";$obj;Formula:C1597(This:C1470.accumulator[String:C10(This:C1470.value[1])]:=$arr[This:C1470.value[0]])))
+.reduce("c_formula_raw";$obj;Formula:C1597(This:C1470.accumulator[String:C10(This:C1470.value[1])]:=$arr[This:C1470.value[0]]))
 $0:=$obj

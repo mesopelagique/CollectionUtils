@@ -46,6 +46,7 @@ $result:=$col.map("c_formula";Formula:C1597($1+1))  // ++
 |[bifurcateBy](Project/Sources/Methods/bifurcateBy.4dm)|Splits values into two groups according to a predicate formula|[test_bifurcateBy](Project/Sources/Methods/test_bifurcateBy.4dm)|
 |[countBy](Project/Sources/Methods/countBy.4dm)|Groups the elements based on the given formula and returns the count by group|[test_countBy](Project/Sources/Methods/test_countBy.4dm)|
 |[groupBy](Project/Sources/Methods/groupBy.4dm)|Groups the elements based on the given formula|[test_groupBy](Project/Sources/Methods/test_groupBy.4dm)|
+|[indexBy](Project/Sources/Methods/indexBy.4dm)|Like groupBy, but for when you know your keys are unique.|[test_indexBy](Project/Sources/Methods/test_indexBy.4dm)|
 |[mostFrequent](Project/Sources/Methods/mostFrequent.4dm)|Returns the most frequent element|[test_mostFrequent](Project/Sources/Methods/test_mostFrequent.4dm	)|
 |[zipObject](Project/Sources/Methods/zipObject.4dm)|Associate collections of keys and values and return an object|[test_zipObject](Project/Sources/Methods/test_zipObject.4dm)|
 

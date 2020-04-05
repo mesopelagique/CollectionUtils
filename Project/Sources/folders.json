@@ -14,6 +14,7 @@
 			"bifurcateBy",
 			"countBy",
 			"groupBy",
+			"indexBy",
 			"mostFrequent",
 			"partition",
 			"zipObject"
@@ -40,6 +41,7 @@
 			"test_bifurcateBy",
 			"test_countBy",
 			"test_groupBy",
+			"test_indexBy",
 			"test_mostFrequent",
 			"test_partition",
 			"test_zipObject"

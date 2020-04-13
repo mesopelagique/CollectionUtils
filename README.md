@@ -5,6 +5,7 @@
 ![code-size][code-size]
 [![release][release-shield]][release-url]
 [![license][license-shield]][license-url]
+[![discord][discord-shield]][discord-url]
 
 Utility methods for collections.
 
@@ -102,3 +103,5 @@ Execute `allTests`, which execute all method prefixed by `test_`
 [release-url]: https://github.com/mesopelagique/CollectionUtils/releases/latest
 [license-shield]: https://img.shields.io/github/license/mesopelagique/CollectionUtils
 [license-url]: LICENSE.md
+[discord-shield]: https://img.shields.io/badge/chat-discord-7289DA?logo=discord&style=flat
+[discord-url]: https://discord.gg/dVTqZHr

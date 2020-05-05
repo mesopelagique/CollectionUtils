@@ -6,7 +6,7 @@
 
 C_OBJECT:C1216($1)
 C_OBJECT:C1216($2)  // Formula
-C_VARIANT:C1683(${1})
+C_VARIANT:C1683(${3})
 
 C_LONGINT:C283($count)
 $count:=Count parameters:C259
